@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tailwind Website</title>
+
+    <!-- Tailwind CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-slate-950 text-white">
+
+    <!-- ================= NAVBAR ================= -->
+
+    <nav class="border-b border-slate-800 bg-slate-950">
+
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">
+
+            <!-- Logo -->
+            <div class="text-2xl font-bold tracking-wide">
+                Dev<span class="text-cyan-400">Hub</span>
+            </div>
+
+
+            <!-- Menu -->
+            <ul class="hidden items-center gap-8 md:flex">
+
+                <li>
+                    <a href="#" class="text-slate-300 transition hover:text-cyan-400">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-slate-300 transition hover:text-cyan-400">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-slate-300 transition hover:text-cyan-400">
+                        Services
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-slate-300 transition hover:text-cyan-400">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- Button -->
+            <button
+                class="rounded-lg bg-cyan-500 px-5 py-2.5 font-semibold text-slate-950 transition hover:bg-cyan-400 hover:shadow-lg hover:shadow-cyan-500/20">
+                Login
+            </button>
+
+        </div>
+
+    </nav>
+
+
+    <!-- ================= MAIN ================= -->
+
+    <main class="min-h-[70vh]">
+
+        <!-- Hero Section -->
+        <section class="mx-auto flex max-w-7xl flex-col items-center px-6 py-24 text-center">
+
+            <span
+                class="mb-5 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-4 py-2 text-sm font-medium text-cyan-400">
+                Welcome to DevHub
+            </span>
+
+            <h1 class="max-w-4xl text-4xl font-extrabold leading-tight tracking-tight sm:text-5xl md:text-6xl">
+                Build modern websites
+                <span class="text-cyan-400">
+                    faster.
+                </span>
+            </h1>
+
+            <p class="mt-6 max-w-2xl text-lg leading-8 text-slate-400">
+                Learn HTML, CSS, JavaScript and modern web technologies
+                with simple and practical examples.
+            </p>
+
+
+            <!-- Buttons -->
+            <div class="mt-8 flex flex-col gap-4 sm:flex-row">
+
+                <button
+                    class="rounded-lg bg-cyan-500 px-7 py-3 font-semibold text-slate-950 transition hover:bg-cyan-400 hover:scale-105">
+                    Get Started
+                </button>
+
+                <button
+                    class="rounded-lg border border-slate-700 px-7 py-3 font-semibold text-white transition hover:border-cyan-400 hover:text-cyan-400">
+                    Learn More
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- Cards -->
+        <section class="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-6 pb-20 md:grid-cols-3">
+
+            <!-- Card 1 -->
+            <div
+                class="rounded-2xl border border-slate-800 bg-slate-900 p-7 transition hover:-translate-y-2 hover:border-cyan-500/50">
+
+                <div class="mb-5 text-4xl">
+                    💻
+                </div>
+
+                <h2 class="mb-3 text-xl font-bold">
+                    Frontend
+                </h2>
+
+                <p class="leading-7 text-slate-400">
+                    Build beautiful and responsive user interfaces
+                    using modern frontend technologies.
+                </p>
+
+            </div>
+
+
+            <!-- Card 2 -->
+            <div
+                class="rounded-2xl border border-slate-800 bg-slate-900 p-7 transition hover:-translate-y-2 hover:border-cyan-500/50">
+
+                <div class="mb-5 text-4xl">
+                    ⚡
+                </div>
+
+                <h2 class="mb-3 text-xl font-bold">
+                    Performance
+                </h2>
+
+                <p class="leading-7 text-slate-400">
+                    Create fast, optimized and responsive websites
+                    for every device.
+                </p>
+
+            </div>
+
+
+            <!-- Card 3 -->
+            <div
+                class="rounded-2xl border border-slate-800 bg-slate-900 p-7 transition hover:-translate-y-2 hover:border-cyan-500/50">
+
+                <div class="mb-5 text-4xl">
+                    🚀
+                </div>
+
+                <h2 class="mb-3 text-xl font-bold">
+                    Modern Stack
+                </h2>
+
+                <p class="leading-7 text-slate-400">
+                    Work with React, Tailwind, Node.js and other
+                    modern technologies.
+                </p>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="border-t border-slate-800 bg-slate-900">
+
+        <div class="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-2 md:grid-cols-4">
+
+            <!-- Footer Logo -->
+            <div>
+
+                <h2 class="mb-4 text-2xl font-bold">
+                    Dev<span class="text-cyan-400">Hub</span>
+                </h2>
+
+                <p class="leading-7 text-slate-400">
+                    Learn web development and build amazing
+                    projects with modern technologies.
+                </p>
+
+            </div>
+
+
+            <!-- Company -->
+            <div>
+
+                <h3 class="mb-4 font-semibold">
+                    Company
+                </h3>
+
+                <ul class="space-y-3 text-slate-400">
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            Careers
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            Blog
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Resources -->
+            <div>
+
+                <h3 class="mb-4 font-semibold">
+                    Resources
+                </h3>
+
+                <ul class="space-y-3 text-slate-400">
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            Documentation
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            Tutorials
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-cyan-400">
+                            Community
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- Contact -->
+            <div>
+
+                <h3 class="mb-4 font-semibold">
+                    Contact
+                </h3>
+
+                <p class="mb-2 text-slate-400">
+                    Chennai, India
+                </p>
+
+                <p class="text-slate-400">
+                    hello@devhub.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- Copyright -->
+
+        <div class="border-t border-slate-800 py-5 text-center">
+
+            <p class="text-sm text-slate-500">
+                © 2026 DevHub. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
